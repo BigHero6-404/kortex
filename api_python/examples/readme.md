@@ -10,7 +10,7 @@
 *
 -->
 
-<h1>Needs to be edited</h1>
+<h1>KINOVA® KORTEX™ API Reference - BigHero6 Manipulation</h1>
 
 <h2>Table of Contents</h2>
 
@@ -19,7 +19,7 @@
 - [Setup (Python environment)](#setup-example-python-environment)
   - [Python setup](#requested-basic-python--python-modules)
   - [Install Kortex Python API and required dependencies](#install-python-kortex-api-and-required-dependencies)
-- [How to use the examples](#how-to-use-examples-with-your-robot)
+- [How to use run the tests](#how-to-use-examples-with-your-robot)
 - [Python API documentation](#api-documentation)
 - [Reference](#reference)
       - [useful links](#useful-links)
@@ -59,7 +59,7 @@ python -m pip install <whl relative fullpath name>.whl
 ```
 
 <a id="markdown-how-to-use-examples-with-your-robot" name="how-to-use-examples-with-your-robot"></a>
-# How to use the examples
+# How to run the tests
 
 We assume the robot is using its default IP address: ``192.168.1.10``
 
