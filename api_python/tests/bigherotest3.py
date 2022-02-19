@@ -99,10 +99,10 @@ def move_forward(base, sX, eX):
     return True
 
 #testing for joystick
-def switchManualMode(base):
-    command = Base_pb2.SwitchControlMapping()
-    com = Base_pb2.SWITCH_CONTROL_MAPPING
-    val = Base_pb2.ControllerConfigurationMode()
+#def switchManualMode(base):
+#    command = Base_pb2.SwitchControlMapping()
+#    com = Base_pb2.SWITCH_CONTROL_MAPPING
+#    val = Base_pb2.ControllerConfigurationMode()
     
     
 
@@ -385,7 +385,7 @@ def main():
             success = True
             success &= move_to_home_position(base)
             success &= move_to_home_position(base)
-            success &= switchManualMode(base)
+            #success &= switchManualMode(base)
             #start streaming
             #p1 = Process(target = startStreaming)
            # p1.start()
